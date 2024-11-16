@@ -34,7 +34,6 @@
       <p><strong>Body Type:</strong> {{ selectedModel.body_type }}</p>
       <p><strong>Original Model:</strong> {{ selectedModel.original_model }}</p>
     </div>
-
     <button @click="resetSelection" :disabled="isLoading" class="reset-button">Clear Selection</button>
   </div>
 </template>
